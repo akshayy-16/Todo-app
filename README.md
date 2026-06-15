@@ -3,6 +3,8 @@ added dependencies :
 shared_preferences: ^2.2.2
   google_fonts: ^6.1.0
   crypto: ^3.0.3
+
+
   
 2)
 Replace void main in widget_test.dart with:
@@ -24,3 +26,8 @@ void main() {
     expect(find.text('1'), findsOneWidget);
   });
 }
+
+
+3)
+if error occuring to run:
+turn on Devoloper option in settings
